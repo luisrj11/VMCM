@@ -1,0 +1,14 @@
+ore .gitignore
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore system files
+.DS_Store
+
+# Ignore foder creat by  pip editable mode (pip install -e ): VaspDefAnalisys.eg
+g-info/
