@@ -16,9 +16,11 @@ This method is particularly useful for studying many-body quantum systems due to
 
 # References
 
-[1] Introduction to Monte Carlo Methods \\
-[2] A. Sørensen et al., Phys. Rev. A 63, 023602 (2001) \\
-[3] E. J. Mueller et al., Phys. Rev. A 71, 053610 (2005 \\
+[1] Introduction to Monte Carlo Methods 
+
+[2] A. Sørensen et al., Phys. Rev. A 63, 023602 (2001) 
+
+[3] E. J. Mueller et al., Phys. Rev. A 71, 053610 (2005 
 
 
 
