@@ -11,7 +11,7 @@ jax.config.update("jax_enable_x64", True)
 jax.config.update("jax_platform_name", "cpu")
 #from decimal import *
 
-from VMCM.Hamiltonian.LocalEnergy import LocalEnergy
+from VMCM.hamiltonian.local_energy import LocalEnergy
 from VMCM.utils.Type import Type
 
 '''

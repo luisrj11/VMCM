@@ -45,6 +45,3 @@ class ExactSolution:
                         0.5*N*(0.5 - 2*alpha*alpha)*D**2 + N*(D*alpha)**2  - E2  
     
         return Exact_variance   
-
-if __name__ == "__main__":
-    print('PROGRAM RUNNING IN THE CURRENT FILE')  

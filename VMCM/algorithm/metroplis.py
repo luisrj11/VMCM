@@ -6,7 +6,7 @@ from math import exp, sqrt
 #from decimal import *
 import numpy as np
 
-from VMCM.Hamiltonian.LocalEnergy import LocalEnergy
+from VMCM.hamiltonian.local_energy import LocalEnergy
 from VMCM.utils.Type import Type
 
 '''
@@ -169,7 +169,18 @@ class Metropolis(LocalEnergy):
         Time_consuming = Time_fin - Time_inicio
         
         return energy, variance, error, Time_consuming
-    
-
-if __name__ == "__main__":
-    print('PROGRAM RUNNING IN THE CURRENT FILE')
+    '''
+    ===============================================================================
+    Set up the parameter for the metropolis algorithm
+    ===============================================================================
+    '''
+    def set_up_metropolis(self, alpha :Type.Float, Number_MC_cycles : Type.Int, Step_size_jumping : Type.Float):
+        self.alpha = alpha
+        self.Number_MC_cycles = Number_MC_cycles
+        self.Step_size_jumping = Step_size_jumping
+        print('Set up the parameter for the metropolis algorithm')
+        print('alpha = ', self.alpha)
+        print('Number_MC_cycles = ', self.Number_MC_cycles)
+        print('Step_size_jumping = ', self.Step_size_jumping)
+        print('----------------------------------')
+        print('Set up the parameter for the metropolis algorithm')      

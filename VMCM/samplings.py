@@ -2,7 +2,7 @@
 import numpy as np
 from joblib import Parallel, delayed
 
-from VMCM.Algorithm.Algorithms import Algorithms
+from VMCM.algorithm.algorithms import Algorithms
 
 '''
 ===============================================================================

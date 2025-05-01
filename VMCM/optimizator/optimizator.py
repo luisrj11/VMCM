@@ -14,8 +14,8 @@ from random import seed
 from scipy.optimize import minimize
 import numpy as np
 
-from VMCM.Optimizator.EnergyGradient import Energygradient
-from VMCM.Optimizator.Energy import Energy
+from VMCM.optimizator.energy_gradient import Energygradient
+from VMCM.optimizator.energy import Energy
 
 class Optimizator(Energygradient, Energy):
 

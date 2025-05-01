@@ -11,7 +11,7 @@ jax.config.update("jax_enable_x64", True)
 jax.config.update("jax_platform_name", "cpu")
 #from decimal import *
 
-from VMCM.Hamiltonian.LocalEnergy import LocalEnergy
+from VMCM.hamiltonian.local_energy import LocalEnergy
 from VMCM.utils.Type import Type
 
 '''
@@ -248,8 +248,4 @@ class MetropolisHastingsAlgorithm(LocalEnergy):
         Time_fin = time()
         Time_consuming = Time_fin - Time_inicio
         
-        return energy, variance, error, Time_consuming
-    
-
-if __name__ == "__main__":
-    print('PROGRAM RUNNING IN THE CURRENT FILE')
+        return energy, variance, error, Time_consuming      

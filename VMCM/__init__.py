@@ -9,6 +9,6 @@
 from VMCM.utils.Type import Type
 
 # Importar a module state from packe QuantumState
-from VMCM.QuantuState.State import State
+from VMCM.quantuState.state import State
 
-from VMCM.VaryingParameter import VaryingNumberMCCycles
+from VMCM.varying_parameter import VaryingNumberMCCycles

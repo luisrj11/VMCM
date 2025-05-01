@@ -115,6 +115,3 @@ class State:
         r_sum_xyz_interacting = jnp.sum(r_sum_xyz_interacting)
         
         return -alpha[0]*r_sum_xy2 - alpha[1]*r_sum_z2 + r_sum_xyz_interacting
-
-if __name__ == "__main__":
-    print('PROGRAM RUNNING IN THE CURRENT FILE')

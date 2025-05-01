@@ -7,8 +7,8 @@ import numpy as np
 
 #from VMCM.Hamiltonian.LocalEnergy import LocalEnergy
 #from VMCM.utils.Type import Type
-from VMCM.Algorithm.Metroplis import Metropolis
-from VMCM.Algorithm.MetropolisHastingsAlgorithm import MetropolisHastingsAlgorithm
+from VMCM.algorithm.metroplis import Metropolis
+from VMCM.algorithm.metropolis_hastingsAlgorithm import MetropolisHastingsAlgorithm
 '''
 ===============================================================================
 Algorithm use the class Methoplis and Metropolis Hastings and put togueder in 
@@ -61,8 +61,3 @@ class Algorithms(Metropolis,MetropolisHastingsAlgorithm):
         elif self.algorithm == 'MetropolisHastings':
             metropolis_hastings_algorithm =super().metropolis_hastings_algorithm 
             return metropolis_hastings_algorithm
-
-            
-    
-if __name__ == "__main__":
-    print('PROGRAM RUNNING IN THE CURRENT FILE')

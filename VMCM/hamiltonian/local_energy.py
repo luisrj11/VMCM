@@ -6,7 +6,7 @@ import jax.numpy as jnp
 jax.config.update("jax_enable_x64", True)
 jax.config.update("jax_platform_name", "cpu")
 
-from VMCM.QuantuState.State import State 
+from VMCM.quantuState.state import State 
 from VMCM.utils.Type import Type
 
 
